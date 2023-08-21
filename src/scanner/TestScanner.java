@@ -2,6 +2,11 @@ package scanner;
 
 import java.util.Scanner;
 
+/**
+ * @author malli
+ * @version 1.0.0
+ * @implNote displaying the use of the Scanner class.
+ */
 public class TestScanner {
 
     private static Scanner scanner = new Scanner(System.in);
