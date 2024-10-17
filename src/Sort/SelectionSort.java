@@ -25,7 +25,6 @@ public class SelectionSort {
                     largest = i;
                 }
             }
-
             swap(intArray, largest, lastUnsortedIndex);
         }
 

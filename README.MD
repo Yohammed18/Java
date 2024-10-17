@@ -2,8 +2,11 @@
 
 Binary Search, DFS, BFS, Sliding
 
-### Bubble Sort
-- Bubble Sort repeatedly swaps adjacent elements to move the largest element to the correct position in each pass
+### Bubble Sort O(n²)
+- Compares each pair of adjacent elements and swaps them if they are in the wrong order. This process repeats until no swaps are needed.
 
-### Selection Sort
-- It looks for the Largest element in the unsorted portion of the list and places it at the end of the array (smallest to largest order).
+### Selection Sort O(n²)
+-  Repeatedly finds the smallest (or largest) element from the unsorted portion of the list and places it in the correct position
+
+### Insertion Sort O(n²)
+- Builds the sorted array one element at a time by repeatedly picking the next element and inserting it into the correct position.
